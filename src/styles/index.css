@@ -1,0 +1,24 @@
+@import 'tailwindcss';
+
+:root {
+  --bg-main: #d9d9d9;
+  --text-main: #;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg-main: #d9d9d9;
+    --text-main: #;
+  }
+}
+
+@theme {
+  --color-brand-primary: #2a2a29;
+  --color-brand-primary-hover: #2a2a29;
+  --color-brand-secondary: #ccd4d4;
+  --color-brand-secondary-hover: #ccd4d4;
+  --color-brand-third: #434344;
+  --color-brand-neutral: #f1f5f9;
+  --color-bg-main: #d9d9d9;
+}
+
