@@ -1,4 +1,4 @@
-import Img from '../../images/li.png'
+import Img from '../../assets/li.png'
 
 export function Cards() {
   return (
@@ -26,17 +26,11 @@ export function Cards() {
         />
 
         {/* CONTEÚDO */}
-        <p className="text-2xl font-bold tracking-wide">LumeX</p>
+        <p className="text-2xl font-bold tracking-wide">Title</p>
 
         <div className="flex gap-2">
           <span className="px-3 py-1 text-xs bg-white/10 backdrop-blur-sm border border-white/20 rounded-full">
-            UX/UI
-          </span>
-          <span className="px-3 py-1 text-xs bg-white/10 backdrop-blur-sm border border-white/20 rounded-full">
-            Web Design
-          </span>
-          <span className="px-3 py-1 text-xs bg-white/10 backdrop-blur-sm border border-white/20 rounded-full">
-            Frontend
+            tag1
           </span>
         </div>
       </div>

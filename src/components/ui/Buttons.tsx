@@ -16,7 +16,7 @@ export function Button({
     <button
       data-variant={variant}
       className={`
-      inline-flex items-center justify-center font-medium rounded-4xl transition-all px-4 py-2 h-8 focus-visible:outline-2 disabled:opacity-50 disabled:pointer-events-none
+      inline-flex items-center justify-center font-medium rounded-4xl transition-all px-4 py-2 focus-visible:outline-2 disabled:opacity-50 disabled:pointer-events-none gap-2  drop-shadow-2xl shadow-brand-primary
 
       /* Button Primary */
       data-[variant=primary]:bg-brand-primary
@@ -37,7 +37,7 @@ export function Button({
       data-[variant=principal]:px-8
       data-[variant=principal]:py-3.5
       data-[variant=principal]:font-bold
-      data-[variant=principal]:h-8
+      data-[variant=principal]:w-full
 
       &{className}
 
